@@ -158,7 +158,7 @@
         "EnableMobileDownload": true,
         "MaxFileSize": 52428800,
         "DriverName": "${FILE_SETTINGS__DRIVER_NAME}",
-        "Directory": "./data/",
+        "Directory": "/data/",
         "EnablePublicLink": false,
         "PublicLinkSalt": "A705AklYF8MFDOfcwh3I488G8vtLlVip",
         "InitialFont": "nunito-bold.ttf",
