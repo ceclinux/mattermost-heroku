@@ -157,20 +157,11 @@
         "EnableMobileUpload": true,
         "EnableMobileDownload": true,
         "MaxFileSize": 52428800,
-        "DriverName": "${FILE_SETTINGS__DRIVER_NAME}",
-        "Directory": "/data/",
+        "DriverName": "local",
+        "Directory": "./data/",
         "EnablePublicLink": false,
         "PublicLinkSalt": "A705AklYF8MFDOfcwh3I488G8vtLlVip",
-        "InitialFont": "nunito-bold.ttf",
-        "AmazonS3AccessKeyId": "${FILE_SETTINGS__AMAZON_S3_ACCESS_KEY_ID}",
-        "AmazonS3SecretAccessKey": "${FILE_SETTINGS__AMAZON_S3_SECRET_ACCESS_KEY}",
-        "AmazonS3Bucket": "${FILE_SETTINGS__AMAZON_S3_BUCKET}",
-        "AmazonS3Region": "${FILE_SETTINGS__AMAZON_S3_REGION}",
-        "AmazonS3Endpoint": "s3.amazonaws.com",
-        "AmazonS3SSL": true,
-        "AmazonS3SignV2": false,
-        "AmazonS3SSE": false,
-        "AmazonS3Trace": false
+        "InitialFont": "nunito-bold.ttf"
     },
     "EmailSettings": {
         "EnableSignUpWithEmail": true,
